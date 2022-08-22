@@ -1,0 +1,51 @@
+<!doctype html>
+<html> 
+    <head><link rel="" href=""></head>
+    <body> 
+        <div id="three buttons">
+            <button id = "firstbutton"
+                    type = "button" onclick ="moveicons('firstbutton')">
+                </button>
+            <button id = "secondbutton"
+                    type = "button" onclick ="moveicons('secondbutton')"></button>
+            <button id = "thirdbutton"
+                    type = "button" onclick ="moveicons('thirdbutton')"></button>
+        </div>
+        <p id ="win the first game"></p>
+        <p id ="dialoguebeforemonster"></p>
+        <div id ="essaimc"></div>
+        <script>
+            function getRandomInt(max) {
+                    return Math.floor(Math.random() * max);
+                }
+            // blabla
+            function initialisation () { 
+                var symbols = ["🔅", "🌙", "✨"] ;
+                document.getElementById("firstbutton").innerHTML= symbols[getRandomInt(3)] ;
+                document.getElementById("secondbutton").innerHTML = symbols[getRandomInt(3)] ;
+                document.getElementById("thirdbutton").innerHTML = symbols[getRandomInt(3)] ;
+            }
+            initialisation();
+            function moveicons(button) { 
+                if (document.getElementById(button).innerHTML == "🔅") {
+                    document.getElementById(button).innerHTML = "🌙" ;
+                }
+                else if (document.getElementById(button).innerHTML == "🌙") {
+                        document.getElementById(button).innerHTML = "✨" ;
+                }
+                else if (document.getElementById(button).innerHTML == "✨") {
+                        document.getElementById(button).innerHTML = "🔅" ;
+                }
+                if (document.getElementById("firstbutton").innerHTML == "🌙" && 
+                        document.getElementById("secondbutton").innerHTML == "✨" && 
+                        document.getElementById("thirdbutton").innerHTML == "🔅" ) { 
+                        document.getElementById("win the first game").innerHTML  = " <img src = 'https://i.pinimg.com/originals/6e/62/e1/6e62e12817d7c868de3294619c81a61a.gif'> " ;
+                        const box = document.getElementById('three buttons')
+                        box.style.display = 'none';
+                        
+                        }
+        }
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://img.freepik.com/vecteurs-libre/paysage-mer-nuit-littoral-lune-dans-ciel_107791-1664.jpg?w=1380&t=st=1661007159~exp=1661007759~hmac=d9486e9351f0eb348bec6bb7440ba12c49ea3439ad281f1afd9dc8966f374765);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#playscreen {
+    border-width:4px;
+    border-style:inset;
+    justify-content: center;
+    align-items: center;
+    border-color:black;
+    margin: 45px;
+    width: 800px;
+    height : 480px;
+    padding: 80px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    position : relative;
+}
+#dlgbrd {
+    border-width:4px;
+    border-style:inset;
+    justify-content: center;
+    align-items: center;
+    border-color:rgba(255, 136, 0, 0.534);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background: rgb(206, 162, 104);
+    font-family: Arial;
+    position : absolute;
+    bottom : 0;
+    right : 0;
+}
+#dlgbutton {
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid rgb(255, 238, 0);
+  height: 0; 
+  margin: auto;
+  position: absolute;
+  bottom:0;
+  right:0;
+  width: 0; 
+}
