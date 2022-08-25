@@ -27,6 +27,8 @@ var dlgs = {
            "dlg26" : 'MAUDITS!!',
            "dlg27" : 'Voulez vous vous diriger vers cette nouvelle voix ?',
            "dlg28" : 'Le courage émane de vous comme un feu éternel, vous vous dirigez vers les paroles de ce qu’il s’avère être un fantôme en bien mauvaise posture. Un grand loup spectral lui fait face. ',
-           "dlg29" : '"MAUDITS JE… Eh ! VOUS ! Aidez-moi !!! Ce sale cabot vient de me manger un bout de jambe, déjà que j’en ai plus beaucoup… HEH, VOUS M’ECOUTEZ ?"'
+           "dlg29" : '"MAUDITS JE… Eh ! VOUS ! Aidez-moi !!! Ce sale cabot vient de me manger un bout de jambe, déjà que j’en ai plus beaucoup… HEH, VOUS M’ECOUTEZ ?"' ,
+           "dlg30" : 'Pas trop le temps de deviner pourquoi et comment un fantôme peut manger un bout d’un autre fantôme il semblerait. Vous dégainez votre épée sans hésiter.',
+           "dlg31" : 'COMBAT!!',
 
         }; 

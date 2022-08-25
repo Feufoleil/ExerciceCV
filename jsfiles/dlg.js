@@ -95,6 +95,12 @@ document.getElementById("dlgbutton").onclick = function() {
         else if (currentdlg == "dlg28") {
                 currentdlg = "dlg29"
         }
+        else if (currentdlg == "dlg29") {
+                currentdlg ="dlg30"
+        }
+        else if (currentdlg =="dlg30") {
+                currentdlg = "dlg31"
+        }
         document.getElementById("dlgtext").innerHTML = dlgs[currentdlg] ;
         }  
 
@@ -102,5 +108,6 @@ document.getElementById("dlgbutton").onclick = function() {
                 document.getElementById("dlgbutton").style.display = "initial" ;
                 document.getElementById("yesorno").style.display = "none";
                 currentdlg = "dlg28";
+                document.getElementById("dlgtext").innerHTML = dlgs[currentdlg] ;
         }
         
