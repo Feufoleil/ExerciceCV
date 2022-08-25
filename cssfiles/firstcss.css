@@ -49,3 +49,12 @@ body {
   right:0;
   width: 0; 
 }
+#pseudouser {
+    display: none;
+}
+#threebuttons {
+    display: none;
+}
+#yesorno {
+    display : none;
+}

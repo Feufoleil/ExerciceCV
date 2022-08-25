@@ -4,13 +4,38 @@
         <body>
             <div id ="game">
                 <div id ="playscreen">
-                Nous allons jouer ici. 
+                    <div id="threebuttons">
+                        <button id = "firstbutton"
+                                type = "button" onclick ="moveicons('firstbutton')">
+                            </button>
+                        <button id = "secondbutton"
+                                type = "button" onclick ="moveicons('secondbutton')"></button>
+                        <button id = "thirdbutton"
+                                type = "button" onclick ="moveicons('thirdbutton')"></button>
+                    </div>
                 <div id ="dlgbrd">
-                    <div id ="dlgtxt"></div>
+                    <div id ="dlgtext"></div>
                     <div id = "dlgbutton"> </div>
-                </div>
+                        <div id = "pseudouser">
+                            <br>
+                            <label for="imputuser">Mon nom est </label>
+                            <input type="text" id="imputuser" required
+                            minlength="1" maxlength="20" size="10"></input>
+                        </div>
+                    <div id ="yesorno">
+                        <button id = "yesbutton" 
+                                type ="button" onclick ="yes()">Oui.</button>
+                        <button id = "nobutton"
+                                type = "button" onclick="">Non.</button>
+                    </div>
+                    </div>
+                    <div id = "winthefirstgame"></div>
                 </div> 
             </div>
+            <script type="text/javascript" src="jsfiles/firstminigame.js">
+            </script>
+            <script type="text/javascript" src="jsfiles/dlglines.js">
+            </script>
             <script type="text/javascript" src="jsfiles/dlg.js">
             </script>
         </body>
